@@ -6,7 +6,7 @@ Implement your own by following the [Hashicorp tutorial](https://learn.hashicorp
 
 ## About the code
 
-The created tracks in the playlist created by this Terraform code is limited by the number of broken ice cream machines in Dallas, TX thanks to my [mcbroken provider](https://registry.terraform.io/providers/circa10a/mcbroken/latest/docs) that builds on [mcbroken.com](https://mcbroken.com)
+The tracks in the playlist created by this Terraform code is limited by the number of broken ice cream machines in Dallas, TX thanks to my [mcbroken provider](https://registry.terraform.io/providers/circa10a/mcbroken/latest/docs) that builds on [mcbroken.com](https://mcbroken.com)
 
 Example, if 11% of McDonald's ice cream machines are broken in Dallas, then guess what, you get 11 tracks. Sorry, not sorry.
 
