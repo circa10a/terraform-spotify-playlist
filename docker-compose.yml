@@ -1,0 +1,11 @@
+version: '3'
+services:
+  spotify-oauth-proxy:
+    container_name: spotify-oauth-proxy
+    ports:
+      - '27228:27228'
+    environment:
+      - SPOTIFY_CLIENT_SECRET
+      - SPOTIFY_CLIENT_ID
+      - SPOTIFY_CLIENT_REDIRECT_URI="http://localhost:27228/spotify_callback"
+    image: ghcr.io/conradludgate/spotify-auth-proxy
